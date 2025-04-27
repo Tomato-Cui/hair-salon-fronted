@@ -1,0 +1,121 @@
+
+.orders-container {
+		min-height: 100vh;
+		background-color: #F5F5F5;
+		padding-bottom: 30rpx;
+}
+.orders-header {
+		padding: 30rpx;
+}
+.title {
+		font-size: 36rpx;
+		font-weight: bold;
+		color: #333;
+}
+	
+	/* 订单列表样式 */
+.order-list {
+		padding: 0 30rpx;
+}
+.order-item {
+		background-color: #FFFFFF;
+		border-radius: 12rpx;
+		padding: 30rpx;
+		margin-bottom: 20rpx;
+		box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.order-top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20rpx;
+		padding-bottom: 20rpx;
+		border-bottom: 1rpx solid #F5F5F5;
+}
+.order-id {
+		font-size: 26rpx;
+		color: #999;
+}
+.order-status {
+		font-size: 26rpx;
+		font-weight: bold;
+}
+.status-pending {
+		color: #FF9500;
+}
+.status-completed {
+		color: #34C759;
+}
+.status-cancelled {
+		color: #999;
+}
+.order-info {
+		margin-bottom: 20rpx;
+}
+.service-name, .appointment-time, .duration, .remark {
+		margin-bottom: 10rpx;
+		font-size: 28rpx;
+		display: flex;
+}
+.label {
+		color: #666;
+		width: 160rpx;
+}
+.value {
+		color: #333;
+		flex: 1;
+}
+.order-bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 20rpx;
+		border-top: 1rpx solid #F5F5F5;
+}
+.create-time {
+		font-size: 24rpx;
+		color: #999;
+}
+.order-btns {
+		display: flex;
+}
+.btn {
+		padding: 10rpx 30rpx;
+		margin-left: 20rpx;
+		border-radius: 30rpx;
+		font-size: 24rpx;
+}
+.cancel-btn {
+		background-color: #F5F5F5;
+		color: #666;
+}
+.detail-btn {
+		background-color: #FFF2F5;
+		color: #FF6699;
+}
+	
+	/* 空状态样式 */
+.empty-state {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-top: 200rpx;
+}
+.empty-img {
+		width: 240rpx;
+		height: 240rpx;
+		margin-bottom: 30rpx;
+}
+.empty-text {
+		font-size: 30rpx;
+		color: #999;
+		margin-bottom: 40rpx;
+}
+.go-btn {
+		padding: 15rpx 60rpx;
+		background-color: #FF6699;
+		color: #FFFFFF;
+		border-radius: 40rpx;
+		font-size: 28rpx;
+}

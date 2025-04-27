@@ -1,0 +1,121 @@
+
+.content {
+		padding: 30rpx;
+}
+	
+	/* 店铺信息样式 */
+.shop-info {
+		background-color: #FFFFFF;
+		border-radius: 12rpx;
+		padding: 30rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30rpx;
+		box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+.logo {
+		height: 150rpx;
+		width: 150rpx;
+		border-radius: 50%;
+		margin-bottom: 20rpx;
+}
+.shop-name {
+		font-size: 36rpx;
+		font-weight: bold;
+		margin-bottom: 20rpx;
+		color: #333;
+}
+.shop-detail {
+		width: 100%;
+}
+.shop-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10rpx;
+		font-size: 28rpx;
+		color: #666;
+}
+.shop-item text {
+		margin-right: 10rpx;
+}
+	
+	/* 服务按钮样式 */
+.service-btns {
+		background-color: #FFFFFF;
+		border-radius: 12rpx;
+		padding: 30rpx;
+		margin-bottom: 30rpx;
+		box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+.service-title {
+		font-size: 32rpx;
+		font-weight: bold;
+		margin-bottom: 30rpx;
+		color: #333;
+}
+.service-list {
+		display: flex;
+		justify-content: space-between;
+}
+.service-item {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #FFF2F5;
+		padding: 20rpx;
+		border-radius: 12rpx;
+}
+.service-item image {
+		width: 100rpx;
+		height: 100rpx;
+		margin-bottom: 10rpx;
+}
+.service-item text {
+		font-size: 28rpx;
+		color: #FF6699;
+}
+	
+	/* 登录区域样式 */
+.login-box {
+		background-color: #FFFFFF;
+		border-radius: 12rpx;
+		padding: 30rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+.login-tip {
+		font-size: 28rpx;
+		color: #999;
+		margin-bottom: 20rpx;
+}
+.login-btn {
+		font-size: 30rpx;
+		color: #FF6699;
+		font-weight: bold;
+}
+	
+	/* 已登录的用户信息 */
+.user-box {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+}
+.user-avatar {
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 50%;
+}
+.user-name {
+		flex: 1;
+		margin-left: 20rpx;
+		font-size: 30rpx;
+		color: #333;
+}
+.go-mine {
+		font-size: 28rpx;
+		color: #999;
+}

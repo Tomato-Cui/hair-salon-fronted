@@ -1,0 +1,104 @@
+
+.mine-container {
+		min-height: 100vh;
+		background-color: #F5F5F5;
+		padding-bottom: 50rpx;
+}
+	
+	/* 未登录状态 */
+.not-login {
+		background-color: #FF6699;
+		padding: 60rpx 30rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: #FFFFFF;
+}
+.avatar {
+		width: 150rpx;
+		height: 150rpx;
+		border-radius: 50%;
+		margin-bottom: 30rpx;
+		border: 4rpx solid rgba(255, 255, 255, 0.5);
+}
+.login-tips {
+		font-size: 32rpx;
+		margin-bottom: 30rpx;
+}
+.login-btn {
+		background-color: #FFFFFF;
+		color: #FF6699;
+		padding: 10rpx 60rpx;
+		border-radius: 40rpx;
+		font-size: 28rpx;
+		font-weight: bold;
+}
+	
+	/* 已登录状态 */
+.user-info {
+		background-color: #FF6699;
+		padding: 60rpx 30rpx;
+		color: #FFFFFF;
+}
+.user-info-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.user-name {
+		font-size: 36rpx;
+		font-weight: bold;
+		margin-bottom: 10rpx;
+}
+.user-id {
+		font-size: 24rpx;
+		opacity: 0.8;
+}
+	
+	/* 菜单列表 */
+.menu-list {
+		padding: 30rpx;
+}
+.menu-group {
+		background-color: #FFFFFF;
+		border-radius: 12rpx;
+		margin-bottom: 30rpx;
+		overflow: hidden;
+}
+.menu-item {
+		display: flex;
+		align-items: center;
+		padding: 30rpx;
+		position: relative;
+		border-bottom: 1rpx solid #F5F5F5;
+}
+.menu-item:last-child {
+		border-bottom: none;
+}
+.menu-item .iconfont {
+		font-size: 40rpx;
+		color: #FF6699;
+		margin-right: 20rpx;
+}
+.menu-text {
+		font-size: 30rpx;
+		color: #333;
+		flex: 1;
+}
+.arrow {
+		font-size: 30rpx;
+		color: #999;
+}
+	
+	/* 退出登录按钮 */
+.logout-btn {
+		background-color: #FFFFFF;
+		height: 90rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 12rpx;
+		margin-top: 60rpx;
+		font-size: 32rpx;
+		color: #FF3366;
+}
